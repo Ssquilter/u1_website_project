@@ -20,6 +20,8 @@ h3 {
   font-size: 2.25rem;
   font-weight: 300;
   line-height: 2.5rem;
+  margin-bottom: 10px;
+  margin-top: 16px;
 }
 
 h4 {
@@ -27,6 +29,14 @@ h4 {
   font-weight: 300;
   line-height: 1.5rem;
   margin: 0;
+}
+
+.news {
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgb(239, 73, 73);
+  font-family: Libre Franklin;
+  margin-bottom: 5px;
 }
 
 a {
@@ -134,7 +144,8 @@ section {
 .box p {
   margin-top: 4px;
   font-size: 1rem;
-  line-height: 1.5;
+  font-family: 'Libre Franklin';
+  line-height: 1.35;
 }
 
 .subtitle {
@@ -169,6 +180,11 @@ img {
   overflow: visible;
 }
 
+.feature p {
+  font-family: Libre Franklin;
+  line-height: 1.5rem;
+}
+
 .feature img {
   max-width: 100%;
   height: auto;
@@ -185,9 +201,10 @@ img {
   height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 4px;
 }
+
 
 /* .container, .center, .feature {
   border: 1px solid red;
 } */
-
